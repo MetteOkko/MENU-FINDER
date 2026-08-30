@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Recipe Details - Menu Finder</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="parent">
+        <header class="header">
+            <nav class="menu">
+                <a href="index.html">Home</a>
+                <a href="recipes.html">Menus</a>
+                <a href="chat.html">Chat</a>
+                <a href="signin.html">Sign in</a>
+            </nav>
+            <h1 class="title">MENU FINDER</h1>
+            <div class="kellotaulu" id="txt"></div>
+        </header>
+
+        <aside class="sidebar">
+            <button class="back-button" onclick="history.back()">← Back to Menus</button>
+        </aside>
+
+        <main class="main recipe-detail">
+            <div id="recipe-content">
+                <div class="recipe-header">
+                    <h1 id="recipe-name"></h1>
+                    <div id="recipe-tags" class="recipe-tags"></div>
+                </div>
+                <div class="course appetizer-section">
+                    <h2>Appetizer</h2>
+                    <div class="course-card">
+                        <h3 id="appetizer-name"></h3>
+                        <p id="appetizer-description"></p>
+                        <button class="recipe-link">View Recipe</button>
+                    </div>
+                </div>
+
+                <div class="course main-course-section">
+                    <h2>Main Course</h2>
+                    <div class="course-card">
+                        <h3 id="main-name"></h3>
+                        <p id="main-description"></p>
+                        <button class="recipe-link">View Recipe</button>
+                    </div>
+                </div>
+
+                <div class="course dessert-section">
+                    <h2>Dessert</h2>
+                    <div class="course-card">
+                        <h3 id="dessert-name"></h3>
+                        <p id="dessert-description"></p>
+                        <button class="recipe-link">View Recipe</button>
+                    </div>
+                </div>
+
+                <div class="course drink-section">
+                    <h2>Recommended Drink</h2>
+                    <div class="course-card drink-card">
+                        <h3 id="drink-name"></h3>
+                        <p id="drink-description"></p>
+                        <button class="recipe-link">View Recipe</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">Made by @Mette Okkonen</footer>
+    </div>
+    <script src="recipe-links.js"></script>
+    <script src="recipe-data.js" ></script>
+    <script src="recipe-detail.js" ></script>
+</body>
+</html>

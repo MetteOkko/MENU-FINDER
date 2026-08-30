@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<head>
+    <title>MENU FINDER</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <div class="parent">
+
+    <header class="header">
+
+    <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="recipes.html">Menus</a>
+            <a href="chat.php">Chat</a>
+            <a href="signin.php">Sign in</a>
+        </nav>
+
+        <h1 class="title">MENU FINDER</h1>
+
+        <div class="kellotaulu" id="txt"> </div>
+        
+    </header>
+
+    <aside class="sidebar">
+<p>Search <br><br>
+        With this search you can find specific words from each page.<br>
+        Just type the word you are looking for and it will be highlighted on the page.<br><br>
+ <input type="text" id="searchBox" placeholder="Type a word to highlight" /><br><br>
+
+        Filter<br><br>
+        You can filter the content based on categories.<br>
+        Select the category you want to filter by and only the relevant content will be shown.<br><br></p>
+  <label>
+    <input type="checkbox" name="filter" value="vegan" />
+    Vegan
+  </label>
+
+  <label>
+    <input type="checkbox" name="filter" value="vegetarian" />
+    Vegetarian
+  </label>
+
+  <label>
+    <input type="checkbox" name="filter" value="meat" />
+    Meat
+  </label>
+<br>
+  <label>
+    <input type="checkbox" name="filter" value="Spicy" />
+    Spicy
+  </label>
+
+  <label>
+    <input type="checkbox" name="filter" value="Mild" />
+    Mild
+  </label>
+
+  <label>
+    <input type="checkbox" name="filter" value="Not Spicy" />
+    Not Spicy
+  </label>
+<br>
+  <label>
+    <input type="checkbox" name="filter" value="Middle Eastern" />
+    Middle Eastern
+  </label>
+
+  <label>
+    <input type="checkbox" name="filter" value="Finnish" />
+    Finnish
+  </label>
+
+  <label>
+    <input type="checkbox" name="filter" value="Italian" />
+    Italian
+  </label>
+
+  <label>
+    <input type="checkbox" name="filter" value="Asian" />
+    Asian
+  </label>
+
+  <label>
+    <input type="checkbox" name="filter" value="French" />
+    French
+  </label>
+
+  <label>
+    <input type="checkbox" name="filter" value="Spanish" />
+    Spanish
+  </label>
+
+  <label>
+    <input type="checkbox" name="filter" value="Greek" />
+    Greek
+  </label>
+
+  <label>
+    <input type="checkbox" name="filter" value="Indian" />
+    Indian
+  </label>
+
+    </aside>
+
+    <main class="main">
+        <div class="card-grid" id="card-grid">
+            <!-- Cards will be loaded here -->
+        </div>
+    </main>
+
+    <footer class="footer">Made by @Mette Okkonen</footer>
+
+    </div>
+</body>
+
+</html>
