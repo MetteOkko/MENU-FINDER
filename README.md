@@ -2,13 +2,13 @@
 
 **Menu Finder** is a web application designed to help users discover menus and recipes based on different food preferences and categories. Users can browse available menus, explore individual recipes, save their favourite menus, and interact with other users through a community chat.
 
-## 🌐 Live Website
+Live Website
 
 [Visit Menu Finder](YOUR-LIVE-WEBSITE-LINK)
 
-## ✨ Features
+Features
 
-### 🍴 Menu & Recipe Discovery
+Menu & Recipe Discovery
 
 * Browse a collection of menus and recipes
 * Search for specific menus
@@ -24,7 +24,7 @@
 * View detailed information for individual menus
 * Access external recipe sources through recipe links
 
-### ❤️ User Features
+User Features
 
 * Create a user account
 * Log in and log out
@@ -32,7 +32,7 @@
 * Like/save menus
 * View liked menus from the user profile
 
-### 💬 Community Chat
+Community Chat
 
 * Users can participate in a community chat
 * Send and view messages
@@ -44,7 +44,7 @@
   * Most recent
 * Display chat statistics such as total messages and active users
 
-### 👑 Admin Panel
+Admin Panel
 
 * Admin-only access
 * View registered users
@@ -52,7 +52,7 @@
 * Delete users
 * Administrative access controlled through user roles
 
-## 🛠️ Technologies
+Technologies
 
 * **HTML5** – Website structure
 * **CSS3** – Layout, styling and responsive design
@@ -61,7 +61,7 @@
 * **MySQL** – User, chat and liked-menu data storage
 * **Git & GitHub** – Version control and project management
 
-## 🗂️ Project Structure
+Project Structure
 
 ```text
 MENU-FINDER/
@@ -97,7 +97,7 @@ MENU-FINDER/
 └── jpg/                       # Images used by the website
 ```
 
-## 🗄️ Database
+Database
 
 The application uses a **MySQL database** to store dynamic user information and community features.
 
@@ -111,7 +111,7 @@ The database is used for:
 
 Sensitive database credentials are kept outside the public repository.
 
-## 🔐 Security
+Security
 
 Passwords are stored using PHP's `password_hash()` functionality rather than storing passwords as plain text.
 
@@ -119,7 +119,7 @@ The application also uses PHP sessions to keep track of logged-in users and thei
 
 > **Note:** Database credentials and other secrets should never be committed to a public GitHub repository.
 
-## 📚 What I Learned
+What I Learned
 
 This project gave me experience with:
 
@@ -136,7 +136,7 @@ This project gave me experience with:
 * Working with asynchronous requests between JavaScript and PHP
 * Using Git and GitHub for version control
 
-## 🚀 Future Improvements
+Future Improvements
 
 Some features I would like to improve or add in the future include:
 
@@ -150,7 +150,7 @@ Some features I would like to improve or add in the future include:
 * Improve the community chat experience
 * Add better error handling
 
-## 💻 Running the Project Locally
+Running the Project Locally
 
 Because the project uses PHP and MySQL, it requires a PHP-enabled web server and a MySQL database.
 
@@ -172,7 +172,7 @@ git clone YOUR-REPOSITORY-LINK
 
 6. Open the project through your local server.
 
-## 👩‍💻 Author
+Author
 
 **Mette Okkonen**
 
