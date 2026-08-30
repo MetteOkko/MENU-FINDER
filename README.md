@@ -1,4 +1,4 @@
-¨# 🍽️ Menu Finder
+Menu Finder
 
 **Menu Finder** is a web application designed to help users discover menus and recipes based on different food preferences and categories. Users can browse available menus, explore individual recipes, save their favourite menus, and interact with other users through a community chat.
 
