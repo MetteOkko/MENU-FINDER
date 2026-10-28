@@ -150,27 +150,6 @@ Some features I would like to improve or add in the future include:
 * Improve the community chat experience
 * Add better error handling
 
-Running the Project Locally
-
-Because the project uses PHP and MySQL, it requires a PHP-enabled web server and a MySQL database.
-
-A local development environment such as **XAMPP**, **MAMP**, or another PHP/MySQL environment can be used.
-
-1. Clone the repository:
-
-```bash
-git clone YOUR-REPOSITORY-LINK
-```
-
-2. Place the project in your local PHP server directory.
-
-3. Create the required MySQL database.
-
-4. Configure the database connection using environment-specific credentials.
-
-5. Start the PHP and MySQL services.
-
-6. Open the project through your local server.
 
 Author
 
