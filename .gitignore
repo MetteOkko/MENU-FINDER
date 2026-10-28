@@ -4,3 +4,13 @@ me1.jpg
 me2.jpg
 me3.jpg
 me4.jpg
+check-session.php
+delete-message.php
+delete-user.php
+get-liked-menus.php
+get-messages.php
+get-users.php
+login.php
+logout.php
+send-message.php
+toggle-like.php
